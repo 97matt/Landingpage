@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 253, 253);
+}
+
+header {
+    padding: 100px;
+    padding-left: 400px;
+    background-image: url(../imgs/head.jpg);
+    background-size: contain;  
+    background-position-x: 1100px;
+    background-repeat: no-repeat;
+    background-color: rgb(70, 62, 62);
+}
+
+header h1 {
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    font-size: 65px;
+}
+
+header p {
+    color: rgb(250, 190, 235);
+    font-size: 20px;
+    font-family: 'DynaPuff', cursive;
+}
+
+.products td {
+    width: 50%;
+    padding: 1em;
+}
+
+.products img {
+    margin-left: 350px;
+    margin-top: 30px;
+    width: 50%;
+    border: 3px solid rgba(7, 7, 7, 0.733);
+    border-radius: 5%;
+}
+
+.products p {
+    margin-right: 250px;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(70, 62, 62);
+    padding: 15px;
+    font-family: 'DynaPuff', cursive;
+    color: white;
+    margin-top: 50px;
+}
